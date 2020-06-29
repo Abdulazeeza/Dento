@@ -607,8 +607,8 @@ footer{
 		margin-bottom: 50px;
 	}
 	.social_handle i{
-		margin-right: 15px;
-    	margin-left: 15px;
+		margin-right: 19px;
+    	margin-left: 19px;
 	}
 	footer{
 		display: flow-root;
@@ -624,6 +624,10 @@ footer{
 	}
 	.dentist_image1_container, .aboutus_container, .services_container, .dentist_image2_container {
     	width: 100% !important;
+
+	}
+	.services_container{
+		padding-left: 1px;
 	}
 	.dentist_image1_container img{
 		width: 85% !important;
@@ -700,6 +704,13 @@ footer{
 	}
 	.more_details1_img{
 		height: 250px;
+	}
+	.patient_videos_body {
+    	padding-top: 20px;
+    	padding-bottom: 15px;
+    }
+    .about_video {
+    	height: 250px;
 	}
 }
 @media (max-width: 340px){
