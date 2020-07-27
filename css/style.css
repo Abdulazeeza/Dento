@@ -430,7 +430,7 @@ footer{
 		background: #3E3655;
 		text-align: center;
 		z-index: 10000;
-		letter-spacing: 2px;
+		
 		transition: 0.5s ease;
 		overflow: hidden;
 	}
