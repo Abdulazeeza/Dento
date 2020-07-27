@@ -376,7 +376,7 @@ footer{
 	}
 	.about_video{
 		width: 360px;
-    	height: 350px;
+    	height: 250px;
     	padding-top: 30px;
     	margin: 0px 20px;
 	}
@@ -586,7 +586,7 @@ footer{
 	}
 	.navbar a{
 		font-weight: 600;
-		font-size: 20px;
+		font-size: 25px;
 		line-height: 27px;
 	}
 	.footer_brand{
@@ -635,7 +635,7 @@ footer{
 		margin-top: 65px;
 	}
 	.aboutus_container{
-		padding: 0px 3px;
+		padding: 0px 10px;
 	}
 	.patient_videos_container{
 		width: 90%;
@@ -681,7 +681,7 @@ footer{
 }
 @media (max-width: 400px){
 	.aboutus_container{
-		height: 370px;
+		height: 375px;
 		margin-top: 50px;
 	}
 	.design_box {
