@@ -20,8 +20,8 @@
     <header class="container-fluid">
 		<nav class="navbar navbar-expand-md">
 	        <a href="#" class="navbar-brand">DENTO</a>
-	        <a  class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-	            <i class="fa fa-bars"></i>
+	        <a  class="navbar-toggler">
+	            <i class="fa fa-bars" onclick="menu_icon()"></i>
 	        </a>
 	        <div class="collapse navbar-collapse" id="navbarCollapse">
 	            <div class="navbar-nav ml-auto">
@@ -34,6 +34,14 @@
 	            </div>
 	        </div>
     	</nav>
+    	 <div class="navbar_mobile">
+            <a href="#" class="nav-item nav-link active">Home</a>
+            <a href="#" class="nav-item nav-link">About Us</a>
+            <a href="#" class="nav-item nav-link">Services</a>
+            <a href="#" class="nav-item nav-link">Pages</a>
+            <a href="#" class="nav-item nav-link">Blog</a>
+            <a href="#" class="nav-item nav-link">Contact Us</a>
+        </div>
     	<div class="page_intro row" data-aos="fade-right">
     		<h2>YOUR TEETH IS SAFE UNDER OUR CARE</h2>
     		<h5>Dento is dentistrty company that helps you treat 
@@ -123,5 +131,7 @@
 	<script>
 	AOS.init();
 	</script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
