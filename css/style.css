@@ -1,3 +1,6 @@
+*{
+	
+}
 header{
 	height: 650px;
 	position: relative;
@@ -20,7 +23,6 @@ header{
 }
 .nav-item{
 	color: #ffffff;
-	font-family: Muli;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -55,7 +57,6 @@ header{
     color: #ffffff;
 }
 .page_intro h2{
-	font-family: Muli;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
@@ -66,7 +67,6 @@ header{
 	text-transform: uppercase;
 }
 .page_intro h5{
-	font-family: Lato;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 24px;
@@ -74,14 +74,13 @@ header{
 	margin-bottom: 50px;
 }
 .page_intro a{
-	width: 214px;
 	height: 49px;
 	background: #ffffff;
 	padding: 15px 30px;
 	cursor: pointer;
 	font-size: 16px;
 	line-height: 19px;
-	color: #3E3655;
+	color:#3E3655;
 }
 .page_intro a:hover{
 	background: wheat;
@@ -124,7 +123,6 @@ header{
 	background: #3E3655;
 }
 .aboutus_container h6{
-	font-family: muli;
 	margin-top: 40px;
 	color: #4F4F4F;
 }
@@ -145,7 +143,6 @@ header{
 }
 .services_container p{
 	color: #4F4F4F;
-	font-family: muli;
 	font-size: 1rem;
 }
 .services_container div .fa-check{
@@ -171,14 +168,12 @@ header{
 	padding-top: 40px;
 }
 .about_video h3{
-	font-family: Muli;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 40px;
 }
 .about_video h5{
-	font-family: Muli;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 20px;
@@ -247,14 +242,12 @@ header{
 	height: 100%;
 }
 .more_details1_writeup h5{
-	font-family: Muli;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 20px;
 	color: #4F4F4F;
 }
 .more_details1_writeup h3{
-	font-family: Muli;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 35px;
@@ -282,7 +275,6 @@ header{
 	background: wheat;
 }
 .more_details2 h4{
-	font-family: Muli;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 35px;
@@ -335,7 +327,6 @@ footer{
 }
 .footer_copyright{
 	line-height: 50px;
-	font-family: muli;
 }
 @media (max-width: 1000px){
 	.navbar-nav {
@@ -353,7 +344,7 @@ footer{
 		margin-bottom: 20px;
 	}
 	header{
-		height: 420px !important;
+		height: 500px !important;
 	}
 	.aboutus_body {
     	width: 768px !important;
