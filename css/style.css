@@ -1,5 +1,5 @@
 *{
-	
+	font-family: muli;
 }
 header{
 	height: 650px;
@@ -83,7 +83,7 @@ header{
 	cursor: pointer;
 	font-size: 16px;
 	line-height: 19px;
-	color:#3E3655;
+	color:black;
 }
 .page_intro a:hover{
 	background: wheat;
