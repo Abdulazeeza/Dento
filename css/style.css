@@ -12,6 +12,7 @@ header{
 	margin: 0;
 	padding: 0;
 	height: 100px;
+	z-index: 10;
 }
 .navbar-nav{
 	justify-content: space-between;
@@ -37,6 +38,7 @@ header{
 	width: 100%;
 	height: 100%;
 	margin-top: -100px;
+	filter: brightness(50%);
 }
 .navbar-brand{
 	font-size:30px;
@@ -55,6 +57,7 @@ header{
 	max-width: 500px;
     left: 115px;
     color: #ffffff;
+    z-index: 10;
 }
 .page_intro h2{
 	font-style: normal;
